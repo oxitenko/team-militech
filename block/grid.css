@@ -1,0 +1,65 @@
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 45px;
+  height: 620px;
+}
+
+.grid__element_color_pink {
+  background: #ff2e93;
+}
+
+.grid__pic {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.grid__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  margin-top: 55px;
+  margin-bottom: 36px;
+}
+
+.grid__sibtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  color: #000000;
+  margin: 0;
+}
+
+.grid__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #000000;
+  align-self: flex-start;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
+.grid__line {
+  position: absolute;
+  bottom: 41px;
+  left: 30px;
+}

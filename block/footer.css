@@ -1,0 +1,65 @@
+.footer {
+  background: #00e6b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 620px;
+}
+
+.footer__team {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 72px;
+}
+
+.footer__team-group {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.footer__download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 240px;
+}
+
+.footer__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #ffffff;
+  padding-bottom: 19px;
+  margin: 0;
+}
+
+.footer__button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #ffffff;
+  background: #ff2e93;
+  border-radius: 12px 6px;
+  width: 298px;
+  height: 90px;
+  text-decoration: none;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__pic {
+  max-width: 100%;
+  object-fit: cover;
+  margin-right: 72px;
+}
